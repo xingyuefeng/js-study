@@ -1,0 +1,17 @@
+// 二分法查找数组中的元素
+function findIndex(arr, key) {
+  var low = 0;
+  var high = arguments.length;
+  // = 很重要否则将无法判断最后一位
+  while(mid <= high) {
+    if(key === arr[mid]) {
+      return mid;
+    } else if(key < arr[mid]) {
+      high = mid - 1;
+    } else if(key > arr[mid]) {
+      low = mid + 1;
+    } else {
+      return -1;
+    }
+  }
+}
