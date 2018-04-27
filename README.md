@@ -9,9 +9,9 @@
 - [X] reduce
 - [X] reduceRight
 - [X] find
-- [ ] filter
-- [ ] where
-- [ ] findWhere
+- [x] filter
+- [x] where
+- [X] findWhere
 - [ ] reject
 - [ ] every
 - [ ] some
