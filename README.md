@@ -12,9 +12,8 @@
 - [x] filter
 - [x] where
 - [X] findWhere
-- [ ] reject
-- [ ] every
-- [ ] some
+- [x] every
+- [x] some
 - [ ] contains
 - [ ] invoke
 - [ ] pluck
@@ -43,9 +42,9 @@
 - [ ] difference
 - [ ] uniq
 - [ ] unzip
-- [ ] indexOf
-- [ ] lastIndexOf
-- [ ] sortedIndex
+- [x] indexOf
+- [x] lastIndexOf
+- [x] sortedIndex
 - [ ] findIndex
 - [ ] findLastIndex
 - [ ] range
