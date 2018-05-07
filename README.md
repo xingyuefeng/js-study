@@ -14,9 +14,9 @@
 - [X] findWhere
 - [x] every
 - [x] some
-- [ ] contains
-- [ ] invoke
-- [ ] pluck
+- [x] contains
+- [x] invoke
+- [x] pluck
 - [ ] max
 - [ ] min
 - [ ] sortBy

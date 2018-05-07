@@ -61,11 +61,9 @@ MediaQueryDispatch.prototype = {
             if (isFunction(handler)) {
                 handler = { match : handler };
             }
-            console.log('handler===>', handler);
             // 查询添加一个处理程序，如果已经激活，则触发
             queries[q].addHandler(handler);
         });
-        console.log('queries===>', queries)
         // 多个注册链式调用 
         return this;
     },
