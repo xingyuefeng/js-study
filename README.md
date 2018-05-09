@@ -17,8 +17,8 @@
 - [x] contains
 - [x] invoke
 - [x] pluck
-- [ ] max
-- [ ] min
+- [x] max
+- [x] min
 - [ ] sortBy
 - [ ] groupBy
 - [ ] indexBy

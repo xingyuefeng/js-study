@@ -8,7 +8,7 @@
 
 [matchMedia](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Testing_media_queries)
 
-## 大体结构
+## 大体结构`
 
 这个库是用面向对象的方法写的，跟之前看的js-cookies不同。 主入口文件是在`index.js`中引入的`MediaQueryDispatch.js`, `MediaQueryDispatch.js` 中的构造函数原型上提供`register` 和 `unregister` 方法供外部调用。
 调用 `register` 方法时 会先把 媒体查询的参数作为 `key` 值，第二个参数也就是相应的方法作为 `value`, 因为第二个参数也支持数组所以 内部 会先将传入的对象转成数组，遍历根据当前的屏幕宽度执行对应的 `match`;
