@@ -19,8 +19,9 @@
 - [x] pluck
 - [x] max
 - [x] min
-- [ ] sortBy
-- [ ] groupBy
+- [x] sortBy
+- [x] groupBy
+- [x] countBy
 - [ ] indexBy
 - [ ] shuffle
 - [ ] sample
